@@ -1,0 +1,20 @@
+{
+  "source": "other",
+  "artifact": "uploaded index.html",
+  "capabilities": [
+    { "capability": "application code", "source": "uploaded index.html", "outcome": "Recreate the single-page website in the existing app while preserving content and interactions", "status": "migrate", "next_action": "Implement and verify the page in preview" },
+    { "capability": "schema", "source": "none detected", "outcome": "No application database or schema is used", "status": "verified", "next_action": "none" },
+    { "capability": "application records", "source": "none detected", "outcome": "No stored application records are used", "status": "verified", "next_action": "none" },
+    { "capability": "auth identities", "source": "none detected", "outcome": "The website has no user sign-in", "status": "verified", "next_action": "none" },
+    { "capability": "authorization", "source": "none detected", "outcome": "No gated or role-restricted content is used", "status": "verified", "next_action": "none" },
+    { "capability": "uploaded file bytes", "source": "19 embedded JPEG photos in uploaded index.html", "outcome": "Preserve all photos as referenced site media", "status": "migrate", "next_action": "Import the 19 photos and verify the gallery and slideshow" },
+    { "capability": "external providers", "source": "WhatsApp click-to-chat links", "outcome": "Keep the existing WhatsApp contact and quote flows", "status": "migrate", "next_action": "Verify links and prefilled enquiry messages" },
+    { "capability": "public endpoints", "source": "none detected", "outcome": "No external API endpoints are used", "status": "verified", "next_action": "none" },
+    { "capability": "callbacks", "source": "none detected", "outcome": "No OAuth or provider callbacks are used", "status": "verified", "next_action": "none" },
+    { "capability": "webhooks", "source": "none detected", "outcome": "No webhooks are used", "status": "verified", "next_action": "none" },
+    { "capability": "schedules", "source": "none detected", "outcome": "No scheduled jobs are used", "status": "verified", "next_action": "none" },
+    { "capability": "secrets", "source": "none detected", "outcome": "No provider credentials are needed", "status": "verified", "next_action": "none" },
+    { "capability": "cutover", "source": "no source domain or hosting configuration supplied", "outcome": "Build and verify in the project preview; no domain switch is requested", "status": "verified", "next_action": "none" },
+    { "capability": "verification", "source": "project preview", "outcome": "Pending route, visual, gallery, responsive, and WhatsApp-link checks", "status": "pending", "next_action": "Verify the recreated site in preview" }
+  ]
+}
